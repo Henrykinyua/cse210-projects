@@ -4,6 +4,12 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello Prep2 World!");
+        Console.Write("what's your first name? ");
+        string first = Console.ReadLine();
+        
+        Console.WriteLine("What's your last name");
+        string last = Console.ReadLine();
+
+        Console.WriteLine($"{first}, {last} {first}");
     }
 }
