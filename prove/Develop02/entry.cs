@@ -7,5 +7,6 @@ public class Entry
     public void Format ()
     {
         Console.WriteLine($"Date: {_date} - prompt: {_prompt}\n{_response} ");
+        Console.WriteLine();
     }
 }

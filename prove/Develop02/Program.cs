@@ -20,7 +20,7 @@ class Program
             {
                 Entry newEntry = new Entry();
                 newEntry._prompt = GetRandomPrompt();
-                Console.WriteLine(newEntry._prompt);
+                Console.WriteLine('>'+newEntry._prompt);
                 newEntry._response = Console.ReadLine();
                 DateTime theCurrentTime = DateTime.Now;
                 newEntry._date = theCurrentTime.ToShortDateString();
@@ -38,7 +38,7 @@ class Program
             }
             else if (choice == 4)
             {
-                Console.Write("Enter the filename");
+                Console.Write("Give a name to the file ");
                 journal._filename = Console.ReadLine();
                 journal.SaveFile();
             }
