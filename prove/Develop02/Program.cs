@@ -8,7 +8,7 @@ class Program
         while (true)
         {  
             Console.Write("Select one of the following");
-            Console.WriteLine();          
+                     
             Console.WriteLine("1. write a new entry");
             Console.WriteLine("2. Display your journal");
             Console.WriteLine("3. Load your journal from a  file");
